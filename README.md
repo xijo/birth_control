@@ -2,6 +2,10 @@
 
 Count active record instantiations and report them to the log.
 
+[![Build Status](https://secure.travis-ci.org/xijo/birth_control.png)](http://travis-ci.org/xijo/birth_control)
+
+[![Coderwall Endorse](http://api.coderwall.com/xijo/endorsecount.png)](http://coderwall.com/xijo)
+
 ## Installation
 
 Add this line to your application's Gemfile:
