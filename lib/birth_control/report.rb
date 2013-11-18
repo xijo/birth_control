@@ -25,6 +25,7 @@ module BirthControl
             lines << "\n#{klass}(#{id}) - #{callers.size} times"
             callers.each_with_index do |caller, index|
               occurence = caller.detect { |call| call.match(/app\//) }
+              occurence ||= caller.first
               occurence.sub!(/(.*)\/app\//, 'app/')
               lines << "  #{index+1}. #{occurence}"
             end
