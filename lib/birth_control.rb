@@ -1,5 +1,4 @@
 require 'active_support'
-require 'terminal-table'
 require 'singleton'
 
 module BirthControl
